@@ -19,8 +19,8 @@ namespace MPM
 
         private void exButton1_Click(object sender, EventArgs e)
         {
-            string MainUsurname = "Exselansis";
-            string MainPassword = "135246tr";
+            string MainUsurname = "Hesap";
+            string MainPassword = "12345";
             if (exTextBox1.Texts ==MainUsurname && exTextBox2.Texts ==MainPassword)
             {
                 Form2 Management = new Form2();
